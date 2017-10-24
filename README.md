@@ -40,7 +40,7 @@ The image can be:
 
 
 ## Test
-First of all, you must create a *parameters.json* file and set your Google Cloud parameters. You have an example file *parametrs.json.example*
+First of all, you must create a *parameters.json* file and set your Google Cloud parameters. You have an example file *parameters.json.example*
 - cp parameters.json.example parameters.json
 - vim parameters.json
 
