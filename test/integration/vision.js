@@ -149,7 +149,7 @@ describe('Vision', function () {
         })  
     })
 
-    it.only('documentTextDetection should response ok and have results', async function () {
+    it('documentTextDetection should response ok and have results', async function () {
         const results = await vision.documentTextDetection(fullTextImage)
         
         expect(results).to.have.property('pages')

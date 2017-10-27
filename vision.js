@@ -2,7 +2,6 @@
 
 const GoogleVision = require('@google-cloud/vision')
 const debug = require('debug')('node-google-vision:Vision')
-const utils = require('./utils')
 
 const keys = {
     faceDetection: 'faceAnnotations',
